@@ -16,6 +16,18 @@ Enable remote container with `Remote-Containers: Reopen in Container`
 
 ![](./images/reopen.png)
 
+### examples/wasm
+
+The examples in examples/wasm are very easy to execute.
+
+```
+$ cd ./examples/wasm/
+$ make slices
+$ go run ./server.go
+```
+
+![](./images/examples-wasm.png)
+
 ## Internals
 
 The following are used internally
