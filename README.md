@@ -28,6 +28,27 @@ $ go run ./server.go
 
 ![](./images/examples-wasm.png)
 
+#### lsp not working properly
+
+1. `TinyGo target` and select `wasm`
+2. Add GOOS/GOARCH to `./.vscode/settings.json`
+3. Reload window (`>Developer: Reload Window`)
+
+```
+{
+    "go.toolsEnvVars": {
+        "GOOS": "js",
+        "GOARCH": "wasm",
+        "GOROOT": "...",
+        "GOFLAGS": "...",
+    }
+}
+```
+
+The following PRs attempt to improve the situation.
+
+* https://github.com/tinygo-org/vscode-tinygo/pull/6
+
 ## Internals
 
 The following are used internally
