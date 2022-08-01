@@ -26,7 +26,8 @@ The following are used internally
     * `TinyGo target` to enable LSP  
     ![](./images/lsp.png)
 * https://github.com/sago35/tinygo-autocmpl
-    * You can use tinygo's bash completion
+    * You can use tinygo's bash completion  
+    ![](./images/tinygo-autocmpl.gif)
 
 The configuration file can be found at
 
