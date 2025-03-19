@@ -11,7 +11,7 @@ func main() {
 
 	for {
 		machine.LED.Toggle()
-		fmt.Printf("hello tinygo devcontiner\r\n")
+		fmt.Printf("hello tinygo devcontainer\r\n")
 		time.Sleep(1 * time.Second)
 	}
 }
